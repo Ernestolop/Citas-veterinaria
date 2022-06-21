@@ -1,5 +1,4 @@
-import React from 'react'
-import Paciente from './Paciente';
+import Paciente from './Paciente.jsx';
 
 const ListadoPacientes = ({pacientes,setPacientes, setPaciente, eliminarPaciente}) => {
   return (

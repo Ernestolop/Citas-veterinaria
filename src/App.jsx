@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
-import Formulario from "./components/Formulario";
-import Header from "./components/header";
-import ListadoPacientes from "./components/ListadoPacientes";
+import Formulario from "./components/Formulario.jsx";
+import Header from "./components/.jsx";
+import ListadoPacientes from "./components/ListadoPacientes.jsx";
 
 
 function App() {

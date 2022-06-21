@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Paciente = ({paciente, setPaciente, eliminarPaciente}) => {
   const {mascota, propietario, email, alta, sintomas, id} = paciente;
 
@@ -9,7 +7,7 @@ const Paciente = ({paciente, setPaciente, eliminarPaciente}) => {
       eliminarPaciente(id);
     };
   };
-  
+
   return (
     <div className='mt-5 bg-white shadpw-md  px-5 py-10 rounded-xl'>
           <p className='font-bold mb-3 text-gray-700 uppercase'>Nombre: <span className=' font-normal normal-case'>{mascota}</span></p>

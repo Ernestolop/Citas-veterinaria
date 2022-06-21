@@ -1,7 +1,7 @@
 //rfce
 //rafce
 import {useState, useEffect} from 'react'
-import Error from './Error';
+import Error from './Error.jsx';
 
 const Formulario = ({pacientes, setPacientes, paciente, setPaciente}) => {
 
